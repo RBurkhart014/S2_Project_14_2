@@ -5,8 +5,8 @@
    Tutorial 12
    Case Problem 2
 
-   Author: 
-   Date:   
+   Author: Ryan Burkhart
+   Date: 4/5/19  
 
    Filename: sub_cart.js
 
@@ -22,3 +22,12 @@
 
 */
 
+window.onload = setupCart;
+
+function setupCart() {
+      var addButtons = document.getElementsByClassName("addButton");
+
+      for (var i = 0; i < addButtons.length; i++) {
+            
+      }
+}
